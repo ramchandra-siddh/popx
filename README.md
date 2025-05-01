@@ -1,12 +1,79 @@
-# React + Vite
+PopX React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant single-page application built with React and React Router v6. The app simulates a user onboarding experience with welcome, login, registration, and account settings pages — all wrapped in a card-style layout and styled with Tailwind CSS.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 Client-side Routing with react-router-dom
 
-## Expanding the ESLint configuration
+🎨 Modern UI using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🗭 Navigation Footer for step-based movement
+
+✅ Forms with Required Fields for Register/Login
+
+👤 Account Summary Page with avatar and email display
+
+🧱 Components Overview
+
+Layout.js
+
+Wraps all pages inside a 380×600px card. Includes a footer navigation bar with:
+
+Home (/welcome)
+
+Back/Next arrows to move between routes
+
+Page index (e.g., 2 of 4)
+
+Welcome.js
+
+Landing page with:
+
+A welcome message
+
+Buttons to navigate to Register and Login
+
+Register.js
+
+User registration form with:
+
+Full Name, Phone, Email, Password, Company Name
+
+Radio button: Are you an agency?
+
+On submit: navigates to /account
+
+Login.js
+
+Simple login form with:
+
+Email and Password fields
+
+Non-functional login button (placeholder UI)
+
+Account.js
+
+Displays:
+
+Avatar and user details (static)
+
+Description placeholder text
+
+💻 Getting Started
+
+Prerequisites
+
+Node.js v14 or newer
+
+npm
+
+📦 Dependencies
+
+react
+
+react-dom
+
+react-router-dom
+
+tailwindcss (assumed, based on class usage)
