@@ -5,6 +5,7 @@ const Welcome = () => {
   return (
     <div>
       <div className="text-center space-y-4 pt-72">
+        {/* user welcome page */}
         <h2 className="text-xl font-bold text-left">Welcome to PopX</h2>
         <p className="text-gray-500 text-left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nulla

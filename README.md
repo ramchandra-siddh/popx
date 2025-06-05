@@ -68,7 +68,7 @@ Node.js v14 or newer
 
 npm
 
-📦 Dependencies
+📦 Dependencies for project
 
 react
 

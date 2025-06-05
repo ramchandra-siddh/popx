@@ -19,8 +19,7 @@ const Account = () => {
 
         <p className="text-sm text-gray-600 mt-8">
           Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
-          Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat,
-          Sed Diam
+          Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat.
         </p>
       </div>
     </div>

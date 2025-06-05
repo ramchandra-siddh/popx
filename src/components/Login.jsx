@@ -11,7 +11,7 @@ const Login = () => {
         <p className="text-gray-500 text-left">
           Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
         </p>
-
+        {/* user details */}
         <div className="mb-4">
           <div className="relative">
             <label

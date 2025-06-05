@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white">
       <div className="w-[380px] h-[600px] bg-gray-50 shadow-lg rounded-md p-4 text-center border border-gray-400 flex flex-col justify-between">
-        {/* Main Scrollable Content */}
+        {/* Main Scrollable Content for file*/}
         <div className="overflow-y-auto flex-grow">{children}</div>
 
         {/* Navigation Footer */}
