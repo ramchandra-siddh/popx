@@ -76,4 +76,4 @@ react-dom
 
 react-router-dom
 
-tailwindcss (assumed, based on class usage)
+tailwindcss (assumed,based on class usage)
