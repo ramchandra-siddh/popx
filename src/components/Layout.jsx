@@ -9,8 +9,6 @@ const Layout = ({ children }) => {
   const currentIndex = pages.indexOf(location.pathname);
   const isValidPage = currentIndex !== -1;
 
-  // if (currentIndex === -1) return <div>Invalid Page</div>;
-
   const goToPage = (index) => {
     if (index !== currentIndex) {
       navigate(pages[index]);

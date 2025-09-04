@@ -8,7 +8,7 @@ const Welcome = () => {
         {/* user welcome page */}
         <h2 className="text-xl font-bold text-left">Welcome to PopX</h2>
         <p className="text-gray-500 text-left">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nulla
+          Lorem ipsum dolor amet consectetur adipisicing elit. Minus, nulla
           quibusdam
         </p>
         <Link

@@ -10,7 +10,7 @@ const Register = () => {
   };
   return (
     <div>
-      {/* user registration */}
+      {/* user registration page */}
       <form onSubmit={handleSubmit}>
         <div className="space-y-2 text-left">
           <h2 className="text-3xl font-bold text-left mb-7">

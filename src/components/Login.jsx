@@ -11,7 +11,7 @@ const Login = () => {
         <p className="text-gray-500 text-left">
           Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
         </p>
-        {/* user details */}
+        {/* user details here */}
         <div className="mb-4">
           <div className="relative">
             <label
@@ -44,7 +44,7 @@ const Login = () => {
           </div>
         </div>
 
-        <button className="w-full bg-gray-300 text-white py-2 rounded font-semibold cursor-not-allowed">
+        <button className="w-full bg-gray-300 text-white py-2 rounded font-semibold hover:bg-violet-600 transition duration-300">
           Login
         </button>
       </div>
